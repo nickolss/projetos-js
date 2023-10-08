@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        .content__title{
+            background-color: #000;
+            padding: 0.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+
+            border-radius: 5px;
+        }
+
+        .content__btn{
+            background-color: transparent;
+            padding: 0.2rem 0.4rem;
+        }
+    }
+}
